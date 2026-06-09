@@ -1,1 +1,1 @@
-# 10Days-CSS-Chellenge
+# 10Days-CSS-Challenge
