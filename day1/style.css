@@ -17,3 +17,21 @@ a{
     font-size:15px;
     font-family: 'Montserrat', sans-serif;
 }
+btn {
+  color: greenyellow;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 12px 30px;
+  border: 2px solid greenyellow;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, greenyellow, aqua);
+  color: black;
+  border-color: transparent;
+  transform: scale(2);
+}
