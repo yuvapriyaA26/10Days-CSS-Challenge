@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid Layout</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 20px;
+            background-color: black;
+            font-family: Arial, sans-serif;
+        }
+
+        h1{
+            color: white;
+            text-align: center;
+        }
+
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            max-width: 800px;
+            margin: auto;
+            
+        }
+
+        .gallery img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Photo Gallery</h1>
+
+    <div class="gallery">
+        <img src="image.png">
+        <img src="image2.png">
+        <img src="image3.png">
+        <img src="image4.jpeg">
+        <img src="image5.jpg">
+        <img src="image6.jpeg">
+        <img src="image7.jpeg">
+        <img src="image8.jpg">
+        <img src="image9.jpeg">
+    </div>
+
+</body>
+</html>
