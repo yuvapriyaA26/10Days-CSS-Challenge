@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: black;
+}
+
+button{
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Button 1 - Color Change */
+.btn1{
+    background-color: skyblue;
+}
+
+.btn1:hover{
+    background-color: deeppink;
+}
+
+/* Button 2 - Scale Up */
+.btn2{
+    background-color: purple;
+    color: white;
+}
+
+.btn2:hover{
+    transform: scale(1.2);
+}
+
+/* Button 3 - Rotate */
+.btn3{
+    background-color: pink;
+}
+
+.btn3:hover{
+    transform: rotate(8deg);
+}
+</style>
+</head>
+<body>
+
+<button class="btn1">login</button>
+<button class="btn2">get start</button>
+<button class="btn3">Rotate</button>
+
+</body>
+</html>
