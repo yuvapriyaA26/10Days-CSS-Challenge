@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+            url("image.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
