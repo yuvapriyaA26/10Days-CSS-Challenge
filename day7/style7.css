@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style: none;   
+}
+
+li {
+    color: white;
+    font-size: 24px;
+    margin: 15px 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Pseudo-element */
+li::before {
+    content: "★";
+    color: gold;
+    margin-right: 10px;
+}
+
+/* Pseudo-class */
+li:hover {
+    color: skyblue;
+}
