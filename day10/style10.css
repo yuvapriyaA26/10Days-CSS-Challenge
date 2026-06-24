@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #dfe9f3, #ffffff);
+}
+
+.portfolio{
+    text-align: center;
+    background: white;
+    padding: 40px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.portfolio img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.portfolio h1{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.portfolio p{
+    color: gray;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+button{
+    padding: 12px 28px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.08);
+}
